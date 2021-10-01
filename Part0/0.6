@@ -1,0 +1,5 @@
+title send note SPA
+
+note left of Browser: The user sends a note
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+Server->Browser: 201 - {"message":"note created"}
